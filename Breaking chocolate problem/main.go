@@ -9,7 +9,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(13123)
+	fmt.Println(BreakChocolate(5, 2))
 }
 
 func BreakChocolate(n, m int) int {
