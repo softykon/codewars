@@ -6,6 +6,12 @@ If input data is invalid you should return 0 (as in no breaks are needed if we d
 
 package main
 
+import "fmt"
+
+func main() {
+	fmt.Println(13123)
+}
+
 func BreakChocolate(n, m int) int {
 	if n <= 0 || m <= 0 {
 		return 0
