@@ -8,6 +8,14 @@ Examples:
 
 package main
 
+import "fmt"
+
+func main() {
+	fmt.Println(Opposite(1))
+	fmt.Println(Opposite(14))
+	fmt.Println(Opposite(-34))
+}
+
 func Opposite(value int) int {
 
 	return -value
